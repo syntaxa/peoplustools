@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Useful bookmarklets</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      margin-bottom: 30px;
+    }
+    .bookmarklet {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: move;
+    }
+  </style>  <h1>Useful bookmarklets</h1>
+  <p>Drag and drop the following link to your browser's bookmarks bar:</p>
+  <a href="javascript:(function(){if(window.location.href.endsWith('?debugger=1')){window.location.href=window.location.href.replace('?debugger=1','');}}());" class="bookmarklet">Hide keys</a>
+  <a href="javascript:(function(){if(!window.location.href.endsWith('?debugger=1')){window.location.href=window.location.href +='?debugger=1';}}());" class="bookmarklet">Show keys</a>
+
+</head>
+<body>
+
+ </body>
+</html>
